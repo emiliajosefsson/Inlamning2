@@ -1,0 +1,66 @@
+* 
+{
+padding: 0;
+margin: 0;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 3rem;
+    font-size: 8vw;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(232,232,232);
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    width: 70vw;
+    margin-top: 2rem;
+    padding: 10px;
+}
+
+#flex-2 {
+    display: flex;
+    align-items: center;
+}
+
+
+h3 {
+    padding-bottom: 5px;
+    padding-top: 5px;
+    font-weight: lighter;
+    font-size: 4vw;
+
+}
+
+.bold-text {
+    font-weight: bold;
+}
+
+
+#saving-data {
+    font-size: 4vw;
+}
+
+.income-data {
+    font-size: 4vw;
+}
+
+.cost-data {
+    font-size: 4vw;
+}

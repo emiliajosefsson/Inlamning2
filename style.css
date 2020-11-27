@@ -1,0 +1,137 @@
+* {
+  padding: 0;
+  margin: 0; }
+
+body {
+  font-family: 'Times New Roman', Times, serif; }
+
+h1 {
+  text-align: center;
+  margin-top: 3rem;
+  font-size: 8vw; }
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.flex-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #e8e8e8;
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+  width: 70vw;
+  margin-top: 2rem;
+  padding: 10px; }
+
+#flex-2 {
+  display: flex;
+  align-items: center; }
+
+h3 {
+  padding-bottom: 5px;
+  padding-top: 5px;
+  font-weight: lighter;
+  font-size: 4vw; }
+
+.bold-text {
+  font-weight: bold; }
+
+#saving-data {
+  font-size: 4vw; }
+
+.income-data {
+  font-size: 4vw; }
+
+.cost-data {
+  font-size: 4vw; }
+
+ul {
+  list-style-type: circle;
+  font-size: 3vw; }
+
+li {
+  list-style-position: inside; }
+
+.list-income {
+  color: green; }
+
+.list-cost {
+  color: red; }
+
+button {
+  font-size: 3vw; }
+
+input {
+  font-size: 3vw;
+  order: 2;
+  flex: 1 1 auto; }
+
+select {
+  font-size: 3vw; }
+
+#add {
+  padding: 1px;
+  background-color: white;
+  align-self: center; }
+
+#add:hover {
+  background-color: grey; }
+
+.eraseList {
+  border-radius: 5px;
+  padding: 3px;
+  background-color: white; }
+
+.eraseList:hover {
+  background-color: grey; }
+
+.eraseList:active {
+  background-color: #d15757; }
+
+.income-data {
+  align-self: center; }
+
+@media (min-width: 750px) {
+  h1 {
+    font-size: 6vw; }
+  h3 {
+    font-size: 3vw; }
+  button {
+    font-size: 2vw; }
+  input {
+    font-size: 2vw; }
+  select {
+    font-size: 2vw; }
+  ul {
+    font-size: 2vw; }
+  #saving-data {
+    font-size: 3vw; }
+  .income-data {
+    font-size: 3vw; }
+  .cost-data {
+    font-size: 3vw; } }
+
+@media (min-width: 1200px) {
+  h1 {
+    font-size: 5vw; }
+  h3 {
+    font-size: 1.5vw; }
+  button {
+    font-size: 1vw; }
+  input {
+    font-size: 1vw; }
+  select {
+    font-size: 1vw; }
+  ul {
+    font-size: 1vw; }
+  #saving-data {
+    font-size: 1.5vw; }
+  .income-data {
+    font-size: 1.5vw; }
+  .cost-data {
+    font-size: 1.5vw; } }

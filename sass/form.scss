@@ -1,0 +1,60 @@
+ul {
+    list-style-type: circle;
+    font-size: 3vw;
+}  
+
+li {
+   list-style-position: inside;
+   
+}
+
+.list-income {
+    color: green;
+}
+
+.list-cost {
+    color: red;
+}
+
+button {
+    font-size: 3vw;
+    
+}
+input {
+    font-size: 3vw;
+    order: 2;
+  flex: 1 1 auto;
+    
+}
+
+select {
+    font-size: 3vw;
+}
+
+#add {
+    padding: 1px;
+    background-color: white;
+    align-self: center;
+  }
+  
+  #add:hover {
+      background-color: grey
+    }
+  
+
+.eraseList {
+  border-radius: 5px;
+  padding: 3px;
+  background-color: white;
+}
+
+.eraseList:hover {
+    background-color: grey}
+
+.eraseList:active {
+ background-color:  rgb(209, 87, 87);
+}
+
+.income-data {
+    align-self: center;
+}

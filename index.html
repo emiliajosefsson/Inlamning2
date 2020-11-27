@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Ekonomi kalkylator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Sparande</h1>
+    <main>
+    <div class="flex-1">
+    <div class="income"> 
+    <!-- <div id="saving-list"></div>  ?? -->
+       <h3>Inkomst:</h3>
+        <span class="income-data"></span>
+    </div>
+          <div class="cost">
+              <h3>Utgifter:</h3>  
+        <span class="cost-data"></span>
+        </div>
+   
+
+       
+        <div id="flex-2">
+        <form>
+        <select id="count-option">
+            <option value="+">+</option>
+            <option value="-">-</option>
+        </select>
+        
+            <input type="text" id="description"  placeholder="Beskrivning" required>
+            <input type="number" id="values" placeholder="Summa" required>
+    <button id="add">Add</button>
+</form>
+</div>
+    
+    <div class="income-list">
+        <h3>Inkomst Lista:</h3>
+    <ul class="list-income">
+
+    </ul>
+    
+    </div>
+
+    <div class="cost-list"><h3>Kostnad Lista:</h3>
+        <ul class="list-cost">
+
+        </ul>
+
+        
+    </div>
+
+    <div class="vinst">
+        <h3 class="bold-text">Totalt sparande:</h3>
+    <span id= "saving-data"></span>
+</div>
+
+<button class= "eraseList">Rensa</button>
+</div>
+</main>
+    
+    <script src="app.js"></script>
+
+</body>
+</html>
